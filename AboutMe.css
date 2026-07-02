@@ -226,7 +226,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;          
+    gap: 5px;          
     margin-top: 20px;
     margin-bottom: 20px;
     flex-wrap: wrap;   
@@ -251,7 +251,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;          
+    gap: 5px;          
     margin-top: 20px;
     margin-bottom: 20px;
     flex-wrap: wrap;  
@@ -277,6 +277,20 @@ body {
     display: block;
     margin: auto auto;
 } 
+
+#hobby__img {
+    width: 22%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+}
+
+#plushobby__img {
+    width: 15%;
+    height: auto;
+    display: block;
+    margin: auto auto;
+}
 
 /* Home  Section CSS */
 
