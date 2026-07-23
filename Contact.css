@@ -343,52 +343,78 @@ body {
 } */
 
 
-/*Mobile Responsive
 @media screen and (max-width: 768px) {
-    .main__container{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .main__content{
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-    .main__content h1{
-        font-size: 2.5rem;
-        margin-top: 2rem;
-    }
-
-    .main__content h2 {
-        font-size: 2.5rem;
-    }
-
-    .main__content p {
-        margin-top: 1rem;
-        font-size:1.5rem;
-    }
+   .main__container {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    background-color: #e9d4c4;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 20px 20px;
+    max-height: 100vh;
 }
-/*
+
+.main__img--container {
+    text-align: center;
+}
+
+#main__img {
+    height: 40%;
+    width: 40%;
+    padding: 20px
+} 
+
+#main__img1 {
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+}
+
+#me__img {
+    height: 70%;
+    width: 70%;
+    padding-left: 7rem;
+}
+}
+
 @media screen and (max-width:480px){
-     .main__content h1{
-        font-size: 2rem;
-        margin-top: 3rem;
-    }
-
-    .main__content h2 {
-        font-size: 2rem;
-    }
-
-    .main__content p {
-        margin-top: 2rem;
-        font-size:1.5rem;
-    }
-
-    .main__btn{
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
+   .main__container {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    background-color: #e9d4c4;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 20px 20px;
+    max-height: 100vh;
 }
- */
+
+.main__img--container {
+    text-align: center;
+}
+
+#main__img {
+    height: 40%;
+    width: 40%;
+    padding: 20px
+} 
+
+#main__img1 {
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+}
+
+#me__img {
+    height: 70%;
+    width: 70%;
+    padding-left: 7rem;
+}
+}
