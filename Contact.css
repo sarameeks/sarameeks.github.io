@@ -344,7 +344,7 @@ body {
 
 
 @media screen and (max-width: 768px) {
-   .main__container {
+.main__container {
     display: block;
     grid-template-columns: 1fr 1fr;
     align-items: center;
