@@ -346,7 +346,6 @@ body {
 @media screen and (max-width: 768px) {
 .main__container {
     display: block;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
@@ -384,7 +383,6 @@ body {
 @media screen and (max-width:480px){
    .main__container {
     display: block;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
